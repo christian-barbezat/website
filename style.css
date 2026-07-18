@@ -1,0 +1,13 @@
+
+@font-face {
+  font-family: 'Freight Big';
+  src: url('/fonts/Freight Big Bold.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Freight Big', serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
