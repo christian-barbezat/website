@@ -1,25 +1,31 @@
+@font-face {
+  font-family: 'Freight Big';
+  src: url('/fonts/Freight Big Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: 'Freight Big';
-  src: url('/fonts/Freight Big Bold.otf') format('otf');
-  font-weight: bold;
+  src: url('/fonts/Freight Big Medium.otf') format('opentype');
+  font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 body {
+  font-family: 'Freight Big', serif;
+  font-size: 2rem;
+  font-weight: 700;
   color: #ffffff;
-  background-color: #000000
+  background-color: #000000;
 }
 
 h1 {
-  font-family: 'Freight Big', serif;
   font-size: 4rem;
-  font-weight: bold;
-  color: #ffffff;
-  background-color: #000000
 }
 
-p{
-    color: #ffffff;
-    background-color: #000000
+p {
+  font-weight: 500;
 }
