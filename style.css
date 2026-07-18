@@ -6,8 +6,20 @@
   font-style: normal;
 }
 
+body {
+  color: #ffffff;
+  background-color: #000000
+}
+
 h1 {
   font-family: 'Freight Big', serif;
   font-size: 4rem;
   font-weight: bold;
+  color: #ffffff;
+  background-color: #000000
+}
+
+p{
+    color: #ffffff;
+    background-color: #000000
 }
